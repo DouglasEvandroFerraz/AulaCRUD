@@ -1,0 +1,53 @@
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;                             /*Configuração Container global*/
+  justify-content: center;
+  background-image: url("/src/images/Fundo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.register-container {
+  padding: 50px 100px;
+  width: max-content;
+  height: max-content;
+  margin-top: 20px;                     /* Configuração Quadrado central */
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: gray;
+}
+
+.register-title {
+  text-align: center;
+  margin-bottom: 20px;                     /* Configuração do Titulo */
+  font-family: bold;
+  color: orange;
+}
+
+.register-input {
+  display: block;
+  margin: 20px auto;                    /* Configuração das caixas de texto */
+  width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 1px;
+}
+
+.register-button {
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;                      /* Configuração do botão */
+  margin-left: 100px;
+  background-color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: orange;                 /* Sombra do botão */ 
+}
+
